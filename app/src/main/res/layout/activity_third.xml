@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#566065"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".ThirdActivity">
+
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magicbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/fb"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:hide_text="Facebook"
+        app:icon_button_color="#3b5998"
+        app:expandable_area_color="#3b5998"
+        />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magicbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/twtr"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:hide_text="Twitter"
+        app:icon_button_color="#00acee"
+        app:expandable_area_color="#00acee"
+        />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magicbtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/insta"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:hide_text="Instagram"
+        app:icon_button_color="#bc2a8d"
+        app:expandable_area_color="#bc2a8d"
+        />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magicbtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/github"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:hide_text="Github"
+        app:icon_button_color="#767676"
+        app:expandable_area_color="#767676"
+        />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magicbtn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/nf"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:hide_text="Netflix"
+        app:icon_button_color="#000000"
+        app:expandable_area_color="#000000"
+        />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magicbtn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/ub"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:hide_text="Ubisoft"
+        app:icon_button_color="#ffffff"
+        app:expandable_area_color="#4F6CA8"
+        />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magicbtn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/xbox"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:hide_text="Xbox"
+        app:icon_button_color="#107C10"
+        app:expandable_area_color="#107C10"
+        />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magicbtn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/gl"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:hide_text="Gameloft"
+        app:icon_button_color="#000000"
+        app:expandable_area_color="#000000"
+        />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magicbtn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/ps"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:hide_text="PlayStation"
+        app:icon_button_color="#ffffff"
+        app:expandable_area_color="#000000"
+        />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magicbtn10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:magic_button_size="50dp"
+        app:button_icon="@drawable/dc"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:hide_text="DISCORD"
+        app:icon_button_color="#5865F2"
+        app:expandable_area_color="#5865F2"
+        />
+
+
+</LinearLayout>

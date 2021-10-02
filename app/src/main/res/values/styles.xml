@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name = "AppTheme" parent = "Theme.AppCompat.Light.DarkActionBar">
+        <item name = "colorPrimary">#673AB7</item>
+        <item name = "colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name = "colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name  ="AppTheme.popMe">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+
+    </style>
+
+    <color name="colorPrimary">#45D64B</color>
+    <color name="colorPrimaryDark">#1E75DF</color>
+    <color name="colorAccent">#F12011</color>
+</resources>

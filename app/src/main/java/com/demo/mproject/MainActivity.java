@@ -12,10 +12,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText Name;
+    private EditText Name;          // variable for edittext
     private EditText Password;
 
-    private Button Login;
+    private Button Login;                // variable for button
 
 
     @Override
@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Authenticator");
         getSupportActionBar().hide();
 
-        Name = (EditText)findViewById(R.id.etName);
+        Name = (EditText)findViewById(R.id.etName);  //initialize edittext
         Password = (EditText)findViewById(R.id.etPassword);
 
-        Login = (Button)findViewById(R.id.btnLogin);
+        Login = (Button)findViewById(R.id.btnLogin);         //initialize button
 
 
 
